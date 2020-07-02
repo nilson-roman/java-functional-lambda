@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+/home/nilson/Documentos/Desenvolvimento/Programação/Java/Udemy_JavaCompleto/modulo_Programacao_funcional_e_expressoes_lambda/ws-aula/.metadata/.plugins/org.eclipse.jdt.core
+2862794799.index

@@ -1,0 +1,22 @@
+package application;
+
+import entities.Product;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+	public static void main(String[] args) {
+		
+		List<Product> list = new ArrayList<>();
+		list.add(new Product("Tv", Double.valueOf(900.0D)));
+		list.add(new Product("Mouse", Double.valueOf(50.0D)));
+		list.add(new Product("Tablet", Double.valueOf(350.5D)));
+		list.add(new Product("HD Case", Double.valueOf(80.9D)));
+		
+		double min = 100.0D;
+		list.removeIf(p -> (p.getPrice().doubleValue() >= paramDouble));
+		
+		for (Product p : list)
+			System.out.println(p);
+	}
+}

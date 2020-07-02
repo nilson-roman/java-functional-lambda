@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;util.PriceUpdate.java&apos; to &apos;UpperCaseName.java&apos;&#x0A;- Original project: &apos;aula4&apos;&#x0A;- Original element: &apos;util.PriceUpdate.java&apos;&#x0A;- Renamed element: &apos;util.UpperCaseName.java&apos;" description="Rename compilation unit &apos;PriceUpdate.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;util{PriceUpdate.java" name="UpperCaseName.java" references="false" stamp="1593651719689" version="1.0"/>
+</session>

@@ -1,0 +1,44 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import entities.Product;
+import util.PriceUpdate;
+
+public class Program {
+	public static void main(String[] args) {
+
+		List<Product> list = new ArrayList<>();
+		list.add(new Product("Tv", Double.valueOf(900.0)));
+		list.add(new Product("Mouse", Double.valueOf(50.0)));
+		list.add(new Product("Tablet", Double.valueOf(350.5)));
+		list.add(new Product("HD Case", Double.valueOf(80.9)));
+
+		// Interface implementation
+		// list.forEach(new PriceUpdate());
+
+		// Method reference static
+		// list.forEach(Product::staticPriceUpdate);
+
+		// Method reference non static
+		// list.forEach(Product::nonStaticPriceUpdate);
+
+		// Declared lambda expression
+		double factor = 1.1;
+		// Consumer<Product> cons = p -> {
+		// 	p.setPrice(p.getPrice() * factor);
+		// };
+		// list.forEach(cons);
+		
+		// Predicate<Product> pred = p -> p.getPrice() >= min;
+		// list.removeIf(pred);
+
+		// Inline lambda expression
+
+		list.forEach(p -> p.setPrice(p.getPrice() * factor));
+
+		list.forEach(System.out::println);
+	}
+
+}
